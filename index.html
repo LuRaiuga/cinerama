@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINERAMA | Home</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+
+    <div id="root">
+        <header></header>
+        <main>
+            <div id="mainBox">
+                <div>
+                    <form id="formMovie">
+                        <h1>CINERAMA</h1>
+                        <h4>Wanna register a movie?</h4>
+                        <br>
+                        <div class="formGroup">
+                            <label for="movieName"></label>
+                            <input type="text" id="movieName" placeholder="Nome">
+                        </div>
+                        <div class="formGroup">
+                            <label for="movieDirector"></label>
+                            <input type="text" id="movieDirector" placeholder="Director">
+                        </div>
+                        <div class="formGroup">
+                            <label for="movieGenre"></label>
+                            <input type="text" id="movieGenre" placeholder="Genre">
+                        </div>
+                        <div class="formGroup">
+                            <label for="movieDescription"></label>
+                            <input type="text" id="movieDescription" placeholder="Description">
+                        </div>
+                        <div class="formGroup">
+                            <label for="movieYear"></label>
+                            <input type="date" id="movieYear" placeholder="Data">
+                        </div>
+                        <div class="formGroup">
+                            <button type="button" id="btnCreate">Register</button>
+                            <span id="registerAlert"></span>
+                        </div>
+                        <h4>Forgot a movie? See the full list!</h4>
+                        <h5>Movie list:<span id="qtFilmes"></span></h5>
+                        <button type="button" id="btnMovies">Show list</button>
+                        <span id="answer"></span>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
